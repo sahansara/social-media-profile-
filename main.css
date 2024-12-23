@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+      font-family: 'Inter', sans-serif;
+      background-color: hsl(0, 0%, 8%); /* Grey 900 */
+      color: hsl(0, 0%, 100%); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+       
+    
+    
+    .layout{   background-color: hsl(0, 0%, 12%); 
+        text-align: center;
+        border-radius: 12px;
+        padding: 20px;
+        width: 100%;
+        max-width: 375px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      }
+        
+      .profilePic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      
+    }
+
+.profileName{ font-size: 24px;
+              font-weight: 700;
+              color: aliceblue;
+              margin-bottom: 5px;
+
+
+}
+.location{ font-size:  14px;
+           color: hsl(75, 94%, 57%);
+
+}    
+
+.carry{ font-size: 12px;
+        font-weight: 400;
+        color: aliceblue;
+}
+
+.links {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ } 
+
+
+ .btn {
+text-decoration: none;
+color: hsl(0, 0%, 100%); 
+font-size: 14px;
+font-weight: 600; 
+padding: 10px;
+border-radius: 6px;
+transition: background-color 0.3s ease, transform 0.2s ease;
+text-align: center;
+background-color:  hsl(0, 0%, 30%);
+
+}
+
+.github,
+.frontend-mentor,
+.linkedin,
+.twitter,
+.instagram{
+  color: hsl(0, 0%, 100%)
+  ;
+}
+
+.github:hover,
+.frontend-mentor:hover,
+.linkedin:hover,
+.twitter:hover,
+.instagram:hover {
+  background-color:hsl(75, 94%, 57%);
+}
+@media (min-width: 768px) {
+          .profile-card {
+            max-width: 400px;
+          }
+        }
+
+        @media (min-width: 1440px) {
+          body {
+            padding: 40px;
+          }
+
+          .profile-card {
+            max-width: 500px;
+            padding: 40px;
+          }
+        }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
